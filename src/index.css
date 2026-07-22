@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #fdf2f8;
+  --paper-line: #fbcfe8;
+  --ink: #5b2333;
+  --ink-soft: #a15a78;
+  --primary: #db2777;
+  --primary-soft: #f472b6;
+  --urgent: #e11d48;
+  --urgent-bg: #ffe4ec;
+  --soon: #f97316;
+  --soon-bg: #fff1e0;
+  --whenever: #16a34a;
+  --whenever-bg: #e8f9ee;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #fdf2f8 0%, #fff5fa 100%);
+  color: var(--ink);
+  font-family: 'Nunito', ui-sans-serif, system-ui, sans-serif;
+}
+
+.font-mono-chart {
+  font-family: 'Quicksand', ui-sans-serif, system-ui, sans-serif;
+  font-weight: 600;
+}
+
+#root {
+  min-height: 100svh;
+}
